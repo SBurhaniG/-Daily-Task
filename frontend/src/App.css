@@ -1,0 +1,79 @@
+/* src/App.css */
+@import url('https://googleapis.com');
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background-color: #1b1b1b;
+}
+
+
+.custom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color: #fff;
+  width: 80%;
+  margin: 30px auto;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 16px;   
+  padding: 10px;
+}
+
+.nav-logo {
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.dashboard-container {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stat-card {
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.stat-card p {
+  margin: 10px 0 0 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+
+               
+
+
