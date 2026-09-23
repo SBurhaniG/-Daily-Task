@@ -15,5 +15,8 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "prisma": "^6.19.3"
+  },
+  "devDependencies": {
+    "@prisma/orm-postgres": "^8.0.0-rc.11"
   }
 }
