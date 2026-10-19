@@ -14,8 +14,8 @@ export default function Login({ onLoginSuccess }) {
     setIsLoading(true);
 
     const endpoint = isRegistering 
-      ? "http://localhost:3000/register" 
-      : "http://localhost:3000/login";
+      ? "http://localhost:3000/auth/register" 
+      : "http://localhost:3000/auth/login";
       
     const payload = isRegistering 
       ? { name, email, password } 
